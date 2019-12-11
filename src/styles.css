@@ -1,0 +1,27 @@
+@tailwind preflight;
+
+@tailwind components;
+
+.container {
+  max-width: 900px;
+}
+
+#cover {
+  background-image: url("./nashville-bw.jpg");
+}
+
+@media (max-width: 768px) {
+  h1 {
+    @apply text-2xl;
+  }
+
+  h2 {
+    @apply text-xl;
+  }
+
+  h3 {
+    @apply text-base;
+  }
+}
+
+@tailwind utilities;
