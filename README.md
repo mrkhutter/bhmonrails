@@ -1,4 +1,4 @@
-<img src="src/Birmingham_on_Rails_Logo.svg" height="300">
+<img src="src/bhm-on-rails.svg" height="300">
 
 ## BHM on Rails 2020
 
