@@ -1,35 +1,38 @@
-# Tailwind CSS Webpack Starter Project
+<img src="src/Birmingham_on_Rails_Logo.svg" height="300">
 
-This is an example of a super simple Webpack setup for using [Tailwind CSS](https://tailwindcss.com).
+## BHM on Rails 2020
 
-To get started, clone the project and install the dependencies:
+[Birmingham on Rails 2020](https://birminghamonrails.com) is a Ruby on Rails conference
+held in Birmingham, Alabama with a mission to train, retain, and recruit Ruby on Rails
+talent to Birmingham and Birmingham based companies by hosting a regional conference
+promoting quality content and a city that's investing in their economic future.
 
-```
-# Using npm
-npm install
+## Table of contents
 
-# Using Yarn
-yarn
-```
+- [Installation](#installation)
+- [Contributing](#contributing)
 
-After that, start up Webpack Development Server:
 
-```
-npm run dev
-```
+## Installation
 
-Webpack Development Server will watch `/src/styles.css` and `/tailwind.js` and rebuild your stylesheet on every change.
+1. Install missing dependencies.
 
-You can play around with `/index.html` to see the effects of your changes.
+    ```js
+    yarn install
+    ```
 
-To build a production bundle run:
+2. Start the Webpack development server.
 
-```
-npm run prod
-```
+    ```js
+    yarn run dev
+    ```
 
-After that you will have a ready to deploy bundle at `/dist`
+3. Open `localhost:8080`.
 
 ## Contributing
 
-Have a lot of experience with Webpack and suggestions on how we could improve this starter template? We'd love a PR!
+1. Thank you! We love [our contributors](https://github.com/:owner/:name/graphs/contributors)!
+1. Clone the repository.
+1. Make your changes in a thoughtfully-named branch.
+1. Submit a [Pull Request](https://github.com/:owner/:name/pulls)!
+1. Celebrate! :tada:
